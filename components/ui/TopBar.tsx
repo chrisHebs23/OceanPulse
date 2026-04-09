@@ -24,10 +24,10 @@ flex items-center justify-center text-2xl"
       <div>
         <div className="text-md text-white/30 border border-white/10 px-3 py-1 rounded-full flex justify-between items-center gap-1">
           <div
-            className={`w-2 h-2 rounded-full ${progress === "running" ? "bg-green-500" : "bg-white/45"} `}
+            className={`w-2 h-2 rounded-full ${progress === "running" ? "bg-green-500 animate-pulse" : "bg-white/45"} `}
           ></div>
           <p
-            className={`capitalize ${progress === "running" ? "text-white" : "text-white/45"}`}
+            className={`capitalize ${progress === "running" ? "text-green-500 animate-pulse" : "text-white/45"}`}
           >
             {progress}
           </p>
