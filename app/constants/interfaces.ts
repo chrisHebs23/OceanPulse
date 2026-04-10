@@ -31,3 +31,13 @@ export interface AiResponse {
   role: "model";
   text: GeminiResponse;
 }
+
+export interface LonLat {
+  lat: number;
+  lon: number;
+}
+
+export interface LonLatList {
+  label: string;
+  value: LonLat;
+}

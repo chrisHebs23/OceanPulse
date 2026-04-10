@@ -1,5 +1,4 @@
 import { oceanApiSchema } from "@/app/constants/interfaces";
-import { error } from "console";
 
 const BASE_URL = "https://marine-api.open-meteo.com/v1/marine";
 
